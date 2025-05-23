@@ -28,7 +28,7 @@
    Step 7 : Stop.
 
 ## Program :
-```
+~~~
 #include<stdio.h> 
 #include<conio.h> 
 #include<graphics.h> 
@@ -45,7 +45,7 @@ void main()
 { 
 int gd,gm,x,y,z,o,x1,x2,y1,y2; 
 detectgraph(&gd,&gm); 
-initgraph(&gd,&gm," "); 
+initgraph(&gd,&gm,"c://turboc3//bgi");
 setfillstyle(0,getmaxcolor()); 
 maxx=getmaxx(); 
 maxy=getmaxy(); 
@@ -85,17 +85,21 @@ bar3d(midx+x1,midy-100,midx+x2,midy-90,5,1);
 getch(); 
 closegraph(); 
 }
-```
-## Output :
 
-![image](https://github.com/user-attachments/assets/57d9227c-caeb-4466-ab3d-ece44cfbbab4)
-![image](https://github.com/user-attachments/assets/ba2f6f9f-f066-455e-9be8-b95f8c5c45b6)
-![image](https://github.com/user-attachments/assets/d7e79365-3db7-4825-ae18-96f358c77974)
-![image](https://github.com/user-attachments/assets/865b782d-7219-4c56-a946-185a235cf7f8)
-![image](https://github.com/user-attachments/assets/a1cc8f1d-a34d-42c2-a590-8fd1dd4b15b5)
-![image](https://github.com/user-attachments/assets/2f92a9e3-ef45-4104-9fdb-d8591744ece5)
-![image](https://github.com/user-attachments/assets/4c966cc3-37d6-441f-b984-14b3e9baabe8)
-![image](https://github.com/user-attachments/assets/b11907f3-6921-476b-94da-012dce747b74)
+Program to implement the various transformations on three dimensional odjects using a c coding.
+DEVELOPED BY: MIDHUN S
+REGISTER NUMBER: 212224230158
+~~~
+## Output :
+![Screenshot 2025-05-08 113936](https://github.com/user-attachments/assets/13fbd135-6aac-4c79-9b9e-2b24869a1db4)
+![Screenshot 2025-05-08 113948](https://github.com/user-attachments/assets/6460616c-9580-45fe-ac12-d8442b62e53f)
+![Screenshot 2025-05-08 113959](https://github.com/user-attachments/assets/69847e67-ac48-4503-bb5a-e7850b7b7f50)
+![Screenshot 2025-05-08 114017](https://github.com/user-attachments/assets/b2eede13-2da3-4e64-9602-f8244fa80a84)
+![Screenshot 2025-05-08 114024](https://github.com/user-attachments/assets/9ea782f8-b025-4c01-a286-ba67b4825a1c)
+![Screenshot 2025-05-08 114034](https://github.com/user-attachments/assets/35895457-2d28-4aaf-bb46-0cb47923b327)
+![Screenshot 2025-05-08 114042](https://github.com/user-attachments/assets/d620e585-fa83-4bdc-8e2b-6bea81e94f6a)
+![Screenshot 2025-05-08 114053](https://github.com/user-attachments/assets/16261176-5a6b-4f79-b6c1-858dd2e0c98a)
+
 
 ## Result :
 Thus, the C program for performing three-dimensional transformations — including translation, scaling, and rotation about the X, Y, and Z axes — was successfully implemented and the output was verified through graphical representation.
